@@ -2,27 +2,31 @@
   "name": "markcrown",
   "version": "0.0.1",
   "description": "Simple library for parsing Markdown to HTML",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint --ext .js,.ts .",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KrawMire/markcrown.git"
-  },
+  "author": "KrawMire",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/KrawMire/markcrown#readme",
   "keywords": [
     "Markdown",
     "parsing",
     "parse-markdown",
     "markdown"
   ],
-  "author": "KrawMire",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrawMire/markcrown.git"
+  },
   "bugs": {
     "url": "https://github.com/KrawMire/markcrown/issues"
   },
-  "homepage": "https://github.com/KrawMire/markcrown#readme",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.0",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
