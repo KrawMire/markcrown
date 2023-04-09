@@ -6,7 +6,12 @@
     "sourceMap": true,
     "declaration": true,
     "esModuleInterop": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "paths": {
+      "@parsers/*": ["./lib/parsers/*"],
+      "@factories/*": ["./lib/factories/*"],
+      "@lib-types/*": ["./lib/types/*"],
+    }
   },
   "exclude": [
     "node_modules"
